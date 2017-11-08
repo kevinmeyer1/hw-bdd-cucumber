@@ -65,6 +65,7 @@ When /^(?:|I )fill in "([^"]*)" for "([^"]*)"$/ do |value, field|
   fill_in(field, :with => value)
 end
 
+
 # Use this to fill in an entire form with data from a table. Example:
 #
 #   When I fill in the following:
@@ -252,3 +253,5 @@ end
 Then /^show me the page$/ do
   save_and_open_page
 end
+
+
